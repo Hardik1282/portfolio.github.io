@@ -1,0 +1,24 @@
+.aa::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+}
+.na{
+    background-image:url(1.png) ;
+    min-height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 2s linear;
+}
+.na:hover .ha{
+    opacity: 0.5 !important;
+}
+.ha{
+    transition: all 0.5s linear;
+}
